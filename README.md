@@ -44,7 +44,7 @@ if (rho<1):
     Ls=Lq+lam/mu
     Ws=Ls/lam
     Wq=Lq/lam
-    print("Average number of objects in the system : %0.2f "%Ls)
+    print("Average number of objects in the system : %0.2f "%Ls) 
     print("Average number of objects in the conveyor :  %0.2f "%Lq)
     print("Average waiting time of an object in the system : %0.2f secs"%Ws)
     print("Average waiting time of an object in the conveyor : %0.2f secs"%Wq)
